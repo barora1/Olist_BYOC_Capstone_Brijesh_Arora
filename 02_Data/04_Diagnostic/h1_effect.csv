@@ -1,0 +1,2 @@
+late_repeat_rate_pct,on_time_repeat_rate_pct,difference_late_minus_on_time_pp,difference_95ci_low_pp,difference_95ci_high_pp,odds_ratio_late_vs_on_time,z_statistic,two_proportion_p_value,chi_square_p_value
+2.5553213909378294,3.132077233779272,-0.5767558428414428,-0.9503907051238041,-0.20312098055908148,0.8110262799316071,-2.785473625511037,0.00534495880184161,0.005944125353051264

@@ -1,0 +1,10 @@
+KPI,Purpose,Recommended_frequency
+First-order late-delivery rate,Monitor delivery performance,Weekly / monthly
+First-order on-time / early rate,Monitor successful delivery performance,Weekly / monthly
+Repeat-purchase rate,Track overall retention,Monthly
+Repeat-purchase rate after on-time / early first order,Track repeat behaviour for successful deliveries,Monthly
+Repeat-purchase rate after late first order,Track repeat behaviour for late deliveries,Monthly
+Delivery retention gap,Monitor the observed delivery-retention difference,Monthly
+Average first-order value,Monitor customer value,Monthly
+Segment Expected Repeat Revenue,Estimate value represented by a repeat purchase,Monthly
+Scenario recoverable revenue,Evaluate intervention scenarios,Scenario review

@@ -1,0 +1,9 @@
+value_tier,delivery_group,customers,repeat_customers,repeat_rate_pct
+Low,On-time / early,21674,712.0,3.2850419857894253
+Low,Late,1726,41.0,2.3754345307068365
+Medium-Low,On-time / early,21395,694.0,3.243748539378359
+Medium-Low,Late,1898,61.0,3.21390937829294
+Medium-High,On-time / early,21499,640.0,2.9768826457044515
+Medium-High,Late,1902,47.0,2.4710830704521554
+High,On-time / early,21094,637.0,3.019816061439272
+High,Late,2066,45.0,2.1781219748305904
