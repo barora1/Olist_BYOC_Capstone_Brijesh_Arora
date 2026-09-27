@@ -1,3 +1,16 @@
 
 # Local DuckDB database
 04_DuckDB/*.duckdb
+
+# Raw Olist source data (large & licensed - download separately, see README)
+02_Data/01_Raw/*.csv
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Pytest cache
+.pytest_cache/

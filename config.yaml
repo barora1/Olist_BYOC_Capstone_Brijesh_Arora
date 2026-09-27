@@ -1,0 +1,11 @@
+# config.yaml
+# ------------
+# Central place to point the project at your local data, instead of
+# hardcoding paths inside notebooks. See src/config.py for how this is read.
+#
+# Either fill in the values below, OR set the equivalent environment
+# variables (OLIST_DATA_DIR / OLIST_DUCKDB_PATH) -- the environment
+# variable takes priority if both are set.
+
+data_dir: "./02_Data/01_Raw"        # folder containing the nine Olist CSVs
+duckdb_path: "./04_DuckDB/olist_capstone.duckdb"

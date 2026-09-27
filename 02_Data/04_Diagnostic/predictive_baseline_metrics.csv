@@ -1,0 +1,2 @@
+train_n,test_n,test_accuracy,trivial_baseline_accuracy,test_roc_auc,confusion_matrix_tn,confusion_matrix_fp,confusion_matrix_fn,confusion_matrix_tp
+69939,23314,0.6537702667924852,0.9691601612764862,0.5563570103174327,14928,7667,405,314

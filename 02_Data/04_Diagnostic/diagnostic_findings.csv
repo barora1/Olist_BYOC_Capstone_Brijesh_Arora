@@ -2,4 +2,5 @@ finding,p_value,significant,direction,effect_size,effect_size_type
 H1_late_delivery,0.005944125353051264,True,late_worse,0.8110262799316071,odds_ratio
 H2_freight_ratio_band,0.0003634530874487174,True,high_freight_better,0.5763073515941186,pp_difference
 H2_freight_value_band_corrected,0.9682127428483189,False,high_freight_better,0.006459101560989111,pp_difference
-value_tier_interaction,0.34080076747230187,False,no_reliable_difference,3.349584851988766,likelihood_ratio_statistic
+value_tier_interaction,0.3408007674732952,False,no_reliable_difference,3.34958485198149,likelihood_ratio_statistic
+predictive_baseline,,False,weak_discrimination,0.5563570103174327,roc_auc
