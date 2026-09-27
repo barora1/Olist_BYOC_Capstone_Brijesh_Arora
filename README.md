@@ -93,10 +93,14 @@ Final_Project_Olist_BYOC_Capstone/
 │   ├── 04_Diagnostic_Analysis.ipynb
 │   ├── 05_Business_Analysis_and_Revenue_at_Risk.ipynb
 │   └── 06_Business_Recommendations_and_Final_Report.ipynb
-├── 04_DuckDB/                Persistent DuckDB database (olist_capstone.duckdb)
-├── 05_Dashboard/             Live/exported dashboard
-├── 06_Report/                Final written report
-├── 07_Presentation/          Presentation deck
+├── 04_DuckDB/                Persistent DuckDB database (olist_capstone.duckdb, not committed — see Setup)
+├── 05_Dashboard/
+│   └── Dashboard.pbix        Power BI interactive dashboard (4 pages: Overview,
+│                              Delivery & Retention, Freight, Business Priority & Revenue)
+├── 06_Report/
+│   └── Technical_Report_Brijesh_Arora.pdf   Full written technical report
+├── 07_Presentation/
+│   └── Executive_Presentation_Brijesh_Arora.pptx   Executive summary deck
 ├── src/
 │   ├── __init__.py
 │   └── config.py             Config-driven path resolution (no hardcoded paths)
@@ -110,8 +114,17 @@ Final_Project_Olist_BYOC_Capstone/
 ## Setup
 
 1. Download the [Olist dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
-   and place the 9 CSV files in `02_Data/01_Raw/` (not committed to this
-   repo due to size/license — see `.gitignore`).
+   and place all 9 CSV files in `02_Data/01_Raw/` (not committed to this
+   repo due to size/license — see `.gitignore`):
+   - `olist_customers_dataset.csv`
+   - `olist_geolocation_dataset.csv`
+   - `olist_order_items_dataset.csv`
+   - `olist_order_payments_dataset.csv`
+   - `olist_order_reviews_dataset.csv`
+   - `olist_orders_dataset.csv`
+   - `olist_products_dataset.csv`
+   - `olist_sellers_dataset.csv`
+   - `product_category_name_translation.csv`
 2. Create and activate a Python environment, then install dependencies:
    ```
    pip install -r requirements.txt
@@ -121,9 +134,11 @@ Final_Project_Olist_BYOC_Capstone/
    ```
    export OLIST_DATA_DIR=/path/to/02_Data/01_Raw
    ```
-4. Run the notebooks in order (01 → 06) from `03_Notebooks/`. Each notebook
-   persists its outputs to the shared DuckDB database at `04_DuckDB/olist_capstone.duckdb`,
-   which downstream notebooks read from directly.
+4. Run the notebooks in order (01 → 06) from `03_Notebooks/`. Notebook 01
+   creates the DuckDB database at `04_DuckDB/olist_capstone.duckdb` (not
+   committed to this repo — regenerated locally on first run), and each
+   subsequent notebook persists its outputs there for downstream notebooks
+   to read directly.
 5. Optionally, run the reproducibility checks:
    ```
    pytest tests/
